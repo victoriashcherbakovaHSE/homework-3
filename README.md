@@ -13,3 +13,8 @@
 в данной программе я использовала модуль fractions для устранения ошибки переполнения, поэтому для точности вычислений результат любой функции может быть выведен в виде дроби.
 ## Часть №2 (стоит 5 баллов из 10)
 Здесь необходимо настроить CI-систему для мини-проекта.
+
+Использую CI-систему  AppVeyor
+
+.. image:: https://ci.appveyor.com/api/projects/status/d6ntr2gx5u8mo6lx?svg=true
+    :target: https://ci.appveyor.com/project/victoriashcherbakovaHSE/homework-3
