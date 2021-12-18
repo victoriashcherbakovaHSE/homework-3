@@ -40,7 +40,14 @@ def find_product(l4):
     return str(product)
 
 
+def find_sum_of_min_and_max(l5):       # Для получения оценки "4": реализуйте любой другой тест на ваше усмотрение
+    r = sorted(l5)
+    return str(r[0] + r[len(r) - 1])
+
+
+print('Результат любой функции может быть выведен в виде дроби для максимальной точности вычислений')
 print('Минимальное число:', find_min(data_new))
 print('Максимальное число:', find_max(data_new))
-print('Сумма(в виде дроби для точности):', find_sum(data_new))
-print('Произведение(в виде дроби для точности):', find_product(data_new))
+print('Сумма:', find_sum(data_new))
+print('Произведение:', find_product(data_new))
+print('Сумма минимального и максимального числа:', find_sum_of_min_and_max(data_new))
