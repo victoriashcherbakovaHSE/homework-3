@@ -1,4 +1,5 @@
 from fractions import Fraction
+import pytest
 from functions import find_min, find_max, find_sum, find_product, find_sum_of_min_and_max
 from math import factorial
 
