@@ -15,3 +15,5 @@
 Здесь необходимо настроить CI-систему для мини-проекта.
 
 Использую CI-систему  AppVeyor
+
+![example workflow](https://ci.appveyor.com/api/projects/status/d6ntr2gx5u8mo6lx?svg=true)
